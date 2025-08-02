@@ -73,8 +73,8 @@ cp .env.example .env
 Edit the `.env` file and add your OpenAI API key:
 
 ```env
-# GEMINI API Key - Get yours at https://platform.openai.com/api-keys
-GEMINI_API_KEY=your_openai_api_key_here
+# GEMINI API Key - Get yours at https://makersuite.google.com/app/apikey
+GEMINI_API_KEY=your_gemini_api_key_here
 
 # Server Port (optional)
 PORT=3001
