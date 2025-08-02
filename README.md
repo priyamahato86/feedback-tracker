@@ -14,12 +14,12 @@ A modern, full-stack feedback management application with AI-powered assistance.
 ### Backend Features
 - **RESTful API**: Complete CRUD operations for feedback management
 - **File-based Storage**: Simple JSON-based data persistence
-- **AI Integration**: OpenAI GPT-3.5-turbo powered chat assistant
+- **AI Integration**: GEMINI  powered chat assistant
 - **Error Handling**: Comprehensive error handling and validation
 - **CORS Support**: Properly configured for frontend-backend communication
 
 ### AI Assistant
-- **Natural Language Processing**: Powered by OpenAI's GPT-3.5-turbo
+- **Natural Language Processing**: Powered by gemini 
 - **Context-Aware**: Understands feedback management and customer service queries
 - **Real-time Chat**: Instant responses with typing indicators
 - **Error Resilience**: Graceful handling of API failures
@@ -36,7 +36,7 @@ A modern, full-stack feedback management application with AI-powered assistance.
 ### Backend
 - **Node.js** with Express
 - **File System** for data storage
-- **OpenAI API** for AI chat functionality
+- **GEMINI API** for AI chat functionality
 - **CORS** for cross-origin requests
 - **Dotenv** for environment variables
 
@@ -46,7 +46,7 @@ Before running this application, make sure you have:
 
 - **Node.js** (version 16 or higher)
 - **npm** or **yarn** package manager
-- **OpenAI API Key** (for AI chat functionality)
+- **GEMINI API Key** (for AI chat functionality)
 
 ## ⚡ Quick Start
 
@@ -221,7 +221,7 @@ The frontend can be deployed to static hosting services:
 
 1. **AI Chat not working**
    - Verify `GEMINI_API_KEY` is set in `.env`
-   - Check OpenAI account has credits
+   - Check GEMINI account has credits
    - Ensure backend server is running
 
 2. **Frontend can't connect to backend**
@@ -234,9 +234,9 @@ The frontend can be deployed to static hosting services:
    - Check Node.js version (16+ required)
    - Clear node_modules and reinstall if needed
 
-### Getting OpenAI API Key
+### Getting GEMINI API Key
 
-1. Visit [GEMINI Platform](https://platform.gemini.com/api-keys)
+1. Visit [GEMINI Platform](https://makersuite.google.com/app/apikey)
 2. Sign up or log in to your account
 3. Navigate to API Keys section
 4. Create a new secret key
