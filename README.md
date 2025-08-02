@@ -251,9 +251,6 @@ The frontend can be deployed to static hosting services:
 5. Push to the branch: `git push origin feature-name`
 6. Submit a pull request
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Support
 
